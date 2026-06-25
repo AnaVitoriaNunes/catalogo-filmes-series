@@ -132,7 +132,7 @@ src
 ## Clone o repositório
 
 ```bash
-git clone <url-do-repositorio>
+git clone <https://github.com/AnaVitoriaNunes/catalogo-filmes-series.git>
 ```
 
 ## Entre na pasta
@@ -168,8 +168,6 @@ http://localhost:5173
 * Séries
 * Favoritos
 * Detalhes
-
-*(Inserir capturas de tela da aplicação aqui.)*
 
 ---
 
