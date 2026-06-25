@@ -1,0 +1,52 @@
+.roulette {
+  background: #1d1d2f;
+  padding: 28px;
+  border-radius: 18px;
+  border: 2px dashed #ffcc00;
+}
+
+.roulette button {
+  margin-top: 12px;
+}
+
+.result {
+  margin-top: 24px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 14px;
+  background: #282846;
+  animation: pulse 0.5s ease;
+}
+
+.result img {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.result span {
+  color: #ffcc00;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.result h3 {
+  color: #ffcc00;
+  font-size: 28px;
+  margin: 8px 0;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.95);
+    opacity: 0.3;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
